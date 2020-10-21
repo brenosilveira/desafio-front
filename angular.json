@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "neovision"
+    }
+  },
+  "defaultProject": "neovision",
+  "cli": {
+    "analytics": false
+  }
 }

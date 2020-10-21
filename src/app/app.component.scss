@@ -1,0 +1,174 @@
+@import "../styles.scss";
+
+.menu-item {
+  span {
+    font-family: Arial, serif;
+    font-size: 20.1px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+  }
+}
+
+.navbar {
+  background-color: $primary;
+}
+
+.facebook {
+  img {
+    width: 80px;
+  }
+}
+
+.navbar-brand {
+  border: 1.3px solid rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: none;
+  padding: 30px 0 30px 0;
+  background-color: $ulpurple;
+  margin-top: -10px;
+
+  img {
+    filter: brightness(0) invert(1);
+    width: 300px;
+  }
+}
+
+.char {
+  background: rgb(68, 41, 108);
+  background: linear-gradient(0deg, rgba(68, 41, 108, 1) 0%, rgba(105, 52, 143, 1) 100%);
+}
+
+.col {
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  width: 100vh;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.text1 {
+  font-family: Arial, serif;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.text2 {
+  font-family: Arial, serif;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.wave {
+  background: #fff;
+  position: relative;
+
+  img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 99vw;
+    margin: 0;
+    position: relative;
+  }
+
+  .col-info {
+    width: 45%;
+    font-size: 1rem;
+    position: absolute;
+    display: block;
+    margin: 50px 0 0 160px;
+
+    .title-info {
+      font-size: 50px;
+      color: $secundary;
+      font-weight: bold;
+    }
+
+    .informations {
+      color: rgb(90, 87, 87);
+      font-weight: 600;
+      font-size: 22px;
+    }
+
+    .func {
+      font-size: 3rem;
+      margin: 160px 0 0 60px;
+      color: #fff;
+
+      .func2 {
+        margin-top: 40px;
+      }
+
+      .func3 {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+.contact {
+  background-color: #eca222;
+  height: 300px;
+
+  .container-contato {
+    width: 80%;
+    margin: auto;
+    .input {
+      display: flex;
+    }
+  }
+
+  span {
+    color: #fff;
+    font-size: 3.1rem;
+  }
+}
+
+.container-contact {
+  font-size: 3rem;
+
+  input {
+  margin-top: 20px;
+  border-radius: 30px;
+  outline: none;
+  }
+
+  button {
+    border-radius: 30px;
+    background-color: $ulpurple;
+    outline: none;
+  }
+}
+
+.footer {
+  height: 200px;
+  background-color: $darkpurple;
+  color: #fff;
+  font-size: 2rem;
+
+  p{
+    text-align: center;
+    margin-top: 60px;
+  }
+}
