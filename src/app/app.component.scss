@@ -13,13 +13,18 @@
 
 .navbar {
   background-color: $primary;
-}
 
-.facebook {
-  img {
-    width: 80px;
+  .nav-item {
+    margin: auto;
+  }
+
+  .facebook {
+    img {
+      width: 80px;
+    }
   }
 }
+
 
 .navbar-brand {
   border: 1.3px solid rgba(0, 0, 0, 0.3);
@@ -128,8 +133,8 @@
 }
 
 .contact {
-  background-color: #eca222;
-  height: 300px;
+  background-color: #ff9100;
+  height: 350px;
 
   .container-contato {
     width: 80%;
@@ -146,26 +151,46 @@
 }
 
 .container-contact {
-  font-size: 3rem;
+  font-size: 2.9rem;
+  margin: 50px 0 0 100px;
+
+  .center-block {
+    margin-top: 10px;
+  }
 
   input {
   margin-top: 20px;
   border-radius: 30px;
   outline: none;
+  margin-left: 20px;
+  border: none;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
   }
 
   button {
-    border-radius: 30px;
-    background-color: $ulpurple;
+    border-radius: 40px;
+    background-color: $darkpurple;
     outline: none;
+    margin-left: 20px;
+    border: none;
+    color: #fff;
+    transition: 0.4s;
+
+    &:hover {
+      background-color: $ulpurple;
+    }
   }
 }
 
 .footer {
-  height: 200px;
+  height: 150px;
   background-color: $darkpurple;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
 
   p{
     text-align: center;
